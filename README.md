@@ -4,7 +4,7 @@ This repo expands (x4-x8) the functionality of the Novation Launch Control Midi 
 
 The motivation behind this development was to overcome the limitation of the Launch Control's 8 + 4 buttons in User Mode for visual shows and performances. As my performances often require more than 20 scenes in TouchDesigner, this software bypasses the LC circuit limitation and provides support for up to `32 scenes`, and I am working to further boost it up to total of `64 scenes`.
 
-On the example bellow you can see the Group Buttons lighting in Red (in this case the first group), and the Scene Buttons lighting in green (in this case the first scene), so we have Bank 1, Scene 1 on User Mode.
+In the example bellow you can see the Group Buttons lighting in Red (in this case the first group), and the Scene Buttons lighting in green (in this case the first scene), so we have Bank 1, Scene 1 on User Mode.
 
 
 ![Alt text](images/LaunchControl.jpg?raw=true "Title")
