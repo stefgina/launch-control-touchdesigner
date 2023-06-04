@@ -85,7 +85,7 @@ def onValueChange(channel, sampleIndex, val, prev):
 
 ## Contributions - TODO
 
-If you like the idea of not paying irrational ammount of money for the same rebranded digital crap from 1970, you can contribute to this repo on the following matters (or brainstorm new ones) :
+If you like the idea of not paying for the same rebranded digital midi crap from 1970, you can contribute to this repo on the following matters (or brainstorm new ones) :
 
 1) Expand the functionality for the Factory Page as well, and boost the LC on super-steroids. (64 scenes) -- (Have to examine this carefully cause Factory Button forwards ```sysex``` messages)
 
