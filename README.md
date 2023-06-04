@@ -1,8 +1,6 @@
-```This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)``` 
-
 # Launch Control: Touchdesigner on Steroids :fire:
 
-This repo expands (x4-x8) the functionality of the Novation Launch Control Midi Controller by utilizing `Python programming`, `LED programming` and `TD mappings`.
+This repo expands (x4-x8) the functionality of the Novation Launch Control Midi Controller by utilizing `Python programming`, `LED programming` and `TD mappings`. This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)
 
 The motivation behind this development was to overcome the limitation of the Launch Control's 8 + 4 buttons in User Mode for visual shows and performances. As my performances often require more than 20 scenes in TouchDesigner, this software bypasses the LC circuit limitation and provides support for up to `32 scenes`, and I am working to further boost it up to total of `64 scenes`.
 
