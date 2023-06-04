@@ -92,4 +92,4 @@ If you like the idea of not paying irrational ammount of money for the same rebr
 
 ## Author Notes: 
 
-Star/ Fork/ Mention in your project :fire:
+Star/ Fork/ Mention in your project 🏴‍☠️
