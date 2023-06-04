@@ -3,8 +3,7 @@
 
 ```diff
 + Re-use, Re-purpose cheap old/limited gear
-- Avoid buy new MIDI controllers for 500$++ (for fuck shake!)
-@@ have fun @@
+- Avoid buying new controllers for 500$++ (for fuck shake!)
 ```
 
 This repo booost (x4-x8) the functionality of Launch Control by utilizing `Python programming`, `LED programming` and `TD mappings`. 
