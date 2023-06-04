@@ -1,6 +1,13 @@
 # Launch Control: Touchdesigner on Steroids :fire:
-This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)
 
+
+```diff
+- text in red
++ This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)
+! text in orange
+# text in gray
+@@ This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)@@
+```
 
 This repo expands (x4-x8) the functionality of Launch Control by utilizing `Python programming`, `LED programming` and `TD mappings`. 
 
