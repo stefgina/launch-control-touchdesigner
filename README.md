@@ -2,16 +2,14 @@
 
 
 ```diff
-- text in red
-+ This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)
-! text in orange
-# text in gray
-@@ This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)@@
++ Re-use, Re-purpose cheap old/limited gear
+- Avoid buy new MIDI controllers for 500$++ (for fuck shake!)
+@@ have fun @@
 ```
 
-This repo expands (x4-x8) the functionality of Launch Control by utilizing `Python programming`, `LED programming` and `TD mappings`. 
+This repo booost (x4-x8) the functionality of Launch Control by utilizing `Python programming`, `LED programming` and `TD mappings`. 
 
-The motivation behind this development was to overcome the limitation of the Launch Control's 8 + 4 buttons in User Mode for visual shows and performances. As my performances often require more than 20 scenes in TouchDesigner, this software bypasses the LC circuit limitation and provides support for up to `32 scenes`, and I am working to further boost it up to total of `64 scenes`.
+The motivation behind this development was to overcome the limitation of the Launch Control's 8 + 4 buttons in User Mode for visual shows and performances. As my performances often require more than 20 scenes in TouchDesigner, this software bypasses the LC circuit limitation and provides support for up to `32 scenes`, while I am working to further boost it up to total of `64 scenes`.
 
 In the example bellow you can see the Group Buttons lighting in Red (in this case the first group), and the Scene Buttons lighting in green (in this case the first scene), so we have Bank 1, Scene 1 on User Mode.
 
@@ -27,7 +25,7 @@ In the example bellow you can see the Group Buttons lighting in Red (in this cas
 
 `launch_control_template.toe` (use my routing)
 
-In case you want to structure your project in the above format (8 buttons x 4 groups), there is this ready-to-use Touchdesigner template file in order to achieve that. Everything works (lights, mappings, cirquits) in the way described. Open my template project, and build yours on top. You have 32 nulls, as the endpoints of your 32 scenes. 
+In case you want to structure your project in the above format (8 buttons x 4 groups), there is this ready-to-use Touchdesigner template file in order to achieve that. Everything works (lights, mappings, circuits) in the way described. Open my template project, and build yours on top. You have 32 nulls, as the endpoints of your 32 scenes. 
 
 A smart idea would be (for cpu/gpu optimization) to run your global effects after the `switch`, and not to every scene or group seperetaly (this will reduce cooking). Another important detail is to close the viewer mode of every component (top left), so only the selected components cook. If you do it properly, you can in theory run unlimited amount of scenes.
 
@@ -44,7 +42,7 @@ Open the mappings.tox in Touchdesigner locate the midi component (midi) and copy
 ----
 ## Logic
 
-The logic resides on a `switch` Touchdesigner cirquit ranging from values (0-31). These values are divided in 4 groups by the 4 buttons on the right side of the midi controller, expanding the functionality of the 8 frontal midi buttons x4. Additionally every button you hit on the controller returns a visual feedback, in order for the user to perceive the current state. These scripts/mappings currently work for User mode (top 2 buttons in Launch control), and I am developing the Factory mode as well for a complete x8 controller expansion. (8 buttons x8 functionality)
+The logic resides on a `switch` Touchdesigner circuit ranging from values (0-31). These values are divided in 4 groups by the 4 buttons on the right side of the midi controller, expanding the functionality of the 8 frontal midi buttons x4. Additionally every button you hit on the controller returns a visual feedback, in order for the user to perceive the current state. These scripts/mappings currently work for User mode (top 2 buttons in Launch control), and I am developing the Factory mode as well for a complete x8 controller expansion. (8 buttons x8 functionality)
 
 ![Alt text](images/switch.png?raw=true "Title")
 
