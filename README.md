@@ -1,6 +1,6 @@
 ```This is an effort to re-use cheap old/limited gear while avoiding buy new MIDI controllers for 500$++ (for fuck shake!)``` 
 
-# Launch Control: Touchdesigner on Steroids for Everyone :fire:
+# Launch Control: Touchdesigner on Steroids :fire:
 
 This repo expands (x4-x8) the functionality of the Novation Launch Control Midi Controller by utilizing `Python programming`, `LED programming` and `TD mappings`.
 
