@@ -1,5 +1,3 @@
-![Alt text](images/y.png?raw=true "Title")
-
 # Launch Control: Touchdesigner on Steroids :fire:
 
 
