@@ -24,7 +24,7 @@ In the example bellow you can see the Group Buttons lighting in Red (in this cas
 
 `launch_control_template.toe` (use my routing)
 
-In case you want to structure your project in the above format (8 buttons x 4 groups), there is this ready-to-use Touchdesigner template file in order to achieve that. Everything works (lights, mappings, circuits) in the way described. Open my template project, and build yours on top. You have 32 nulls, as the endpoints of your 32 scenes. 
+In case you want to structure your project in the above format (8 buttons x 4 groups), there is a ready-to-use Touchdesigner template file in order to achieve that. Everything works (lights, mappings, circuits) in the way described. Open my template project, and build yours on top. You have 32 nulls, as the endpoints of your 32 scenes. 
 
 A smart idea would be (for cpu/gpu optimization) to run your global effects after the `switch`, and not to every scene or group seperetaly (this will reduce cooking). Another important detail is to close the viewer mode of every component (top left), so only the selected components cook. If you do it properly, you can in theory run unlimited amount of scenes.
 
